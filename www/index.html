@@ -38,8 +38,9 @@
         TestClass.fetch()
         .then(function(results){
             var data = results.get("text");
+            var number = results.get("number");
             var update = results.get("updateDate");
-            $("#message").html(data + ":" + update);
+            $("#message").html(data + ":" + number + ":" +update);
         })
     }
 
@@ -67,7 +68,7 @@
     </div>
     <div>
         <label for="number">number:</label>
-        <input id="number" type="number" number=0>
+        <input id="number" type="number" value=0>
     </div>
     <div id="button">
         <button id="btnA" class="btn" onclick="register()">Register</button>   
@@ -75,9 +76,9 @@
         <button id="btnC" class="btn" onclick="fetchAll()">Fetch All</button>
     <div id="message">message area</div>
 </body>
-<table> 
+<!--<table> 
     <tr><th>message</th><th>number</th><th>Update Date</th></tr> 
     <tr><td>Hello</td><td>2023-11-19T04:40:52.232Z</td></tr> 
     <tr><td>Hello</td><td>2023-11-12T05:09:29.166Z</td></tr> 
-    </table>
+    </table>-->
 </html>
