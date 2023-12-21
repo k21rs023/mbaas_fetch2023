@@ -1,9 +1,9 @@
 /**/
 body {
-  background-color: aqua;
+  background-color: springgreen;
 }
 h1 {
-  background-color: yellow;
+  background-color: aqua;
 }
 
 label {
@@ -39,6 +39,7 @@ input {
 
 table {
   border-collapse: collapse;
+  
 }
 
 th, td {
