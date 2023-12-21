@@ -1,4 +1,4 @@
-/**/
+
 body {
   background-color: springgreen;
 }
@@ -8,7 +8,7 @@ h1 {
 
 label {
   display: block;
-  float: left;
+  /* float: left; */
   text-align: right;
   width: 20%;
 }
@@ -36,6 +36,7 @@ input {
   border-style: solid;
   border-color: grey;
 }
+
 
 table {
   border-collapse: collapse;
